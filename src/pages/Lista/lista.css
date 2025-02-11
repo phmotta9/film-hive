@@ -1,0 +1,32 @@
+.botao-remover {
+    position: relative;
+    bottom: 272px;
+    z-index: 100;
+   
+    left: 45%;
+    
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s;
+    font-size: 12px; 
+}
+
+.botao-remover:hover {
+    background-color: #cc0000;
+}
+
+.lista-vazia {
+    display: block;
+    text-align: center;
+    margin-top: 100px; 
+    font-size: 20px; 
+    color: #fff;
+    width: 100%;
+}

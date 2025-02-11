@@ -1,0 +1,46 @@
+header{
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    background: transparent;
+    color: white; 
+    justify-content: space-around;
+}
+  
+.logo{
+    text-decoration: none;
+    display: flex;
+}
+
+.img-logo{
+    height: 70px;
+    width: auto;
+}
+
+.title-logo{
+    height: 70px;
+    width: 140px;
+}
+
+
+.pages-button a{
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px 14px;
+    color: #ffffffdc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    background-color: #0000003b;
+}
+
+.pages-button a:hover{
+    filter: brightness(1.5);
+    transition: 0.5s;
+}

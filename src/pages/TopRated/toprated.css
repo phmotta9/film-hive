@@ -1,0 +1,98 @@
+.toprated-body {
+    width: 100%;
+    background-color: #000;
+}
+
+.toprated-body h1 {
+    font-size: 25px;
+    position: relative;
+    color: #fff;
+    margin-top: 25px;
+    top: 80px;
+    margin-left: 120px;
+}
+
+.toprated-list {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 0 20px;
+}
+
+.toprated-poster {
+    width: 150px;
+    height: 225px;
+    margin: 4px;
+}
+
+.toprated-poster img {
+    width: 150px;
+    height: 225px;
+    margin: 4px;
+    border: 3px solid #2E003E;
+    transition: 0.3s;
+}
+
+.toprated-poster img:hover {
+    border: 3px solid #ffffff;
+}
+
+.toprated-title {
+    color: #fff;
+    position: relative;
+    z-index: 100;
+    bottom: 237px;
+    width: 150px;
+    margin: 4px;
+    height: 225px;
+    border: 3px solid #2E003E;
+    display: block;
+}
+
+.toprated-title::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.toprated-title:hover::after {
+    opacity: 1;
+}
+
+
+.toprated-title h3,
+.toprated-title h4 {
+    z-index: 10;
+    position: absolute;
+    margin: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.toprated-title h3 {
+    top: 120px;
+}
+
+.toprated-title h4 {
+    top: 190px;
+    color: yellow;
+}
+
+.toprated-title:hover h3,
+.toprated-title:hover h4 {
+    opacity: 1;
+}
+
+.toprated-title:hover {
+    border: 3px solid #ffffff;
+} 
