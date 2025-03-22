@@ -22,11 +22,15 @@ header{
     width: auto;
 }
 
-.title-logo{
+.title-logo {
     height: 70px;
-    width: 140px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffff;
 }
-
 
 .pages-button a{
     text-decoration: none;
