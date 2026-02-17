@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { Trash } from 'lucide-react';
+import { FaTrashAlt } from "react-icons/fa"; 
 import './lista.css'
 
 function Lista() {
@@ -38,13 +38,13 @@ function Lista() {
                                     alt={item.title}
                                 />
                                 <Link to={`/filme/${item.id}`} className="toprated-title">
-                                    <div>
+                                    <div className="toprated-info">
                                         <h3>{item.title}</h3>
                                         <h4>{parseFloat(item.vote_average).toFixed(1)}</h4>
                                     </div>
                                 </Link>
                                 <button className="botao-remover" onClick={() => excluirFilme(item.id)}>
-                                    <Trash size={15} /> Remover
+                                    <FaTrashAlt size={15} /> Remover
                                 </button>
                             </div>
                         </article>

@@ -5,20 +5,17 @@
 
 .toprated-body h1 {
     font-size: 25px;
-    position: relative;
     color: #fff;
     margin-top: 25px;
-    top: 80px;
     margin-left: 120px;
+    position: relative;
+    top: 80px;
 }
 
 .toprated-list {
     display: grid;
-    grid-template-columns: repeat(8, 1fr); 
-    margin-top: 80px;
-    margin-bottom: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+    grid-template-columns: repeat(8, 1fr);
+    margin: 80px 80px 20px;
     padding: 0 20px;
 }
 
@@ -26,12 +23,12 @@
     width: 150px;
     height: 225px;
     margin: 4px;
+    position: relative;
 }
 
 .toprated-poster img {
     width: 150px;
     height: 225px;
-    margin: 4px;
     border: 3px solid #2E003E;
     transition: 0.3s;
 }
@@ -41,58 +38,70 @@
 }
 
 .toprated-title {
-    color: #fff;
-    position: relative;
-    z-index: 100;
-    bottom: 237px;
+    position: absolute;
+    inset: 0;
     width: 150px;
-    margin: 4px;
     height: 225px;
     border: 3px solid #2E003E;
+    color: #fff;
+    z-index: 10;
     display: block;
 }
 
 .toprated-title::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0)
+    );
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-
 
 .toprated-title:hover::after {
     opacity: 1;
 }
 
-
-.toprated-title h3,
-.toprated-title h4 {
-    z-index: 10;
+.toprated-info {
     position: absolute;
-    margin: 5px;
+    bottom: 8px;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    z-index: 20;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
 
-.toprated-title h3 {
-    top: 120px;
-}
-
-.toprated-title h4 {
-    top: 190px;
-    color: yellow;
-}
-
-.toprated-title:hover h3,
-.toprated-title:hover h4 {
+.toprated-title:hover .toprated-info {
     opacity: 1;
+}
+
+.toprated-info h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    line-height: 1.2em;
+    max-height: calc(1.2em * 3);
+
+    font-size: 0.9rem;
+}
+
+.toprated-info h4 {
+    color: yellow;
+    font-size: 0.99rem;
 }
 
 .toprated-title:hover {
     border: 3px solid #ffffff;
-} 
+}

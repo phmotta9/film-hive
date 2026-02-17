@@ -1,9 +1,8 @@
 .botao-remover {
     position: relative;
-    bottom: 272px;
+    bottom: 42px;
     z-index: 100;
-   
-    left: 45%;
+    left: 42%;
     
     background-color: #ff0000;
     color: #fff;

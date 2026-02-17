@@ -58,7 +58,7 @@ function TopRated() {
                                     alt={filme.title}
                                 />
                                 <Link to={`/filme/${filme.id}`} className="toprated-title">
-                                    <div>
+                                    <div className="toprated-info">
                                         <h3>{filme.title}</h3>
                                         <h4>{parseFloat(filme.vote_average).toFixed(1)}</h4>
                                     </div>

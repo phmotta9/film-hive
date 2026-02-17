@@ -70,7 +70,7 @@ function Home(){
                                         alt={filme.title}
                                     />
                                     <Link to={`/filme/${filme.id}`} className="filme-title">
-                                        <div>
+                                        <div className="filme-info">
                                             <h3>{filme.title}</h3>
                                             <h4>{parseFloat(filme.vote_average).toFixed(1)}</h4>
                                         </div>
@@ -94,7 +94,7 @@ function Home(){
                                         alt={filme.title}
                                     />
                                     <Link to={`/filme/${filme.id}`} className="filme-title">
-                                        <div>
+                                        <div className="filme-info">
                                             <h3>{filme.title}</h3>
                                             <h4>{parseFloat(filme.vote_average).toFixed(1)}</h4>
                                         </div>

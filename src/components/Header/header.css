@@ -15,16 +15,18 @@ header{
 .logo{
     text-decoration: none;
     display: flex;
+    align-items: center;
 }
 
 .img-logo{
-    height: 70px;
+    height: 100px;
     width: auto;
+
 }
 
 .title-logo {
     height: 70px;
-    width: 160px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
