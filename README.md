@@ -1,18 +1,14 @@
 # 🎬 Film Hive
 
-Projeto web de catálogo de filmes desenvolvido com **React** e **Vite**, consumindo uma API pública para exibir informações atualizadas sobre filmes de forma rápida, moderna e responsiva.
-
----
+Projeto web de catálogo de filmes desenvolvido com **React**, focado no consumo de uma API pública para exibição de informações atualizadas sobre filmes.
 
 ## 🚀 Sobre o Projeto
 
-O **FilmHive** permite pesquisar e explorar filmes utilizando dados em tempo real de uma API pública. O objetivo é proporcionar uma experiência intuitiva para descobrir novos títulos, visualizar informações detalhadas e navegar por um catálogo completo.
+Este aplicativo permite pesquisar e visualizar informações de filmes utilizando uma API pública, oferecendo uma experiência rápida, intuitiva e responsiva para explorar diferentes títulos.
 
-✅ Interface moderna e responsiva  
-✅ Desenvolvido com React + Vite  
-✅ Consumo de API em tempo real
-
----
+✅ Web responsiva  
+✅ Feito com React + Vite  
+✅ Consome dados em tempo real
 
 ## 🧠 Tecnologias
 
@@ -26,29 +22,24 @@ O projeto foi desenvolvido com:
 - React Router DOM
 - API pública de filmes (TMDB)
 
----
-
 ## 📸 Funcionalidades
 
-- 🔍 Pesquisa de filmes por nome
-- 🎬 Exibição de pôsteres
-- ⭐ Avaliação dos filmes
-- 📅 Data de lançamento
-- 📝 Sinopse completa
-- 🎭 Gêneros dos filmes
-- 📱 Interface totalmente responsiva
-- ⚡ Carregamento rápido utilizando Vite
+- Pesquisa de filmes por nome
+- Exibição de pôsteres dos filmes
+- Visualização de nota de avaliação
+- Exibição da data de lançamento
+- Sinopse completa dos filmes
+- Interface moderna e responsiva
+- Componentes reutilizáveis
 
-> Novas funcionalidades, como favoritos, recomendações e filtros avançados, podem ser adicionadas facilmente devido à estrutura modular do projeto.
-
----
+**Obs.:** A estrutura do projeto permite adicionar facilmente novas funcionalidades, como favoritos, filtros, categorias e recomendações.
 
 ## 🔧 Como rodar o projeto localmente
 
 ### Clone o repositório
 
 ```bash
-git clone https://github.com/phmotta9/filme-hive.git
+git clone https://github.com/phmotta9/film-hive.git
 ```
 
 ### Entre na pasta
@@ -63,14 +54,6 @@ cd film-hive
 npm install
 ```
 
-### Configure a API
-
-Crie um arquivo `.env` na raiz do projeto:
-
-```env
-VITE_API_KEY=SUA_CHAVE_DA_TMDB
-```
-
 ### Execute em modo de desenvolvimento
 
 ```bash
@@ -82,23 +65,3 @@ Abra no navegador:
 ```
 http://localhost:5173
 ```
-
----
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins de estudo e portfólio.
-
----
-
-## 👨‍💻 Autor
-
-**Pedro Henrique Motta Rodrigues**
-
-- GitHub: https://github.com/phmotta9
-- LinkedIn: https://www.linkedin.com/in/pedro-motta-1b5a41277/
-- Email: pedromotta135@gmail.com
-
----
-
-⭐ Se este projeto foi útil para você, considere deixar uma estrela no repositório!
