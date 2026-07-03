@@ -1,4 +1,4 @@
-# 🎬 FilmHive
+# 🎬 Film Hive
 
 Projeto web de catálogo de filmes desenvolvido com **React** e **Vite**, consumindo uma API pública para exibir informações atualizadas sobre filmes de forma rápida, moderna e responsiva.
 
@@ -48,13 +48,13 @@ O projeto foi desenvolvido com:
 ### Clone o repositório
 
 ```bash
-git clone https://github.com/phmotta9/FilmHive.git
+git clone https://github.com/phmotta9/filme-hive.git
 ```
 
 ### Entre na pasta
 
 ```bash
-cd FilmHive
+cd film-hive
 ```
 
 ### Instale as dependências
@@ -96,7 +96,7 @@ Este projeto foi desenvolvido para fins de estudo e portfólio.
 **Pedro Henrique Motta Rodrigues**
 
 - GitHub: https://github.com/phmotta9
-- LinkedIn: https://www.linkedin.com/in/pedro-henrique-motta-rodrigues
+- LinkedIn: https://www.linkedin.com/in/pedro-motta-1b5a41277/
 - Email: pedromotta135@gmail.com
 
 ---
